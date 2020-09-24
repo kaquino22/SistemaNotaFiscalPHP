@@ -38,14 +38,12 @@ include 'confirmaSession.php';
 
     <!-- Main CSS-->
     <link href="../css/theme.css" rel="stylesheet" media="all">
-
 </head>
-
-<body  class="text-white" style="text-align: -webkit-center;">
-<br>
-<br>
-<br>
-<br>
+                <body  class="text-white" style="text-align: -webkit-center;">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
                         <section id="Marcas" class="p-t-10">
                         <div class="col-md-12">
                                     <div class="card-header bg-secondary col-md-6 text-center">

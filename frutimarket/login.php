@@ -55,12 +55,7 @@
                                 <div class="form-group">
                                     <label>Senha</label>
                                     <input class="au-input au-input--full" type="password" name="senha" placeholder="Senha">
-                                </div>
-                                <div class="login-checkbox">
-                                    <label>
-                                        <a href="#">Esqueceu a Senha?</a>
-                                    </label>
-                                </div>
+                                </div>    
                                 <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit">Entrar</button>
                             </form>
                             <div class="register-link">

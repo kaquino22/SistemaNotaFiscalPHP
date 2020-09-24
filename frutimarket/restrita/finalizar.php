@@ -3,7 +3,7 @@
     include 'confirmaSession.php';
     echo "<br><hr>";
     session_start();
-    $nf = $_SESSION['nf'];
+    $nf = $_SESSION['IdNotaFiscal'];
     $total = $_GET['total'];
 
     echo "NF: ".$nf."<br>";
@@ -12,10 +12,9 @@
     $consulta = $connect -> 
     prepare("UPDATE notafiscal
         SET valor_total = '$total'
-        WHERE IdNotaFiscal = '$nf'"
-    ); 
+        WHERE IdNotaFiscal = '$nf'"); 
     
+   
     $consulta -> execute();
-
     header('Location: resetnf.php');
 ?>
